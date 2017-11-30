@@ -1,5 +1,10 @@
 clear; clc; close all;
  
+% Implements the paper:
+% Mohammad Tariqul Islam, Sk. Tanvir Ahmed, Ishmam Zabir, Celia Shahnaz, and Shaikh Anowarul Fattah, 
+% "Cascade and Parallel Combination (CPC) of Adaptive Filters for Estimating Heart Rate During Intensive 
+% Physical Exercise from Photoplethysmographic Signal", Healthcare Technology Letters, 2017
+ 
 addpath(genpath('TestData'));
 
 % Test Dataset IDs
@@ -47,7 +52,7 @@ for idnb = 1:1
         curSegment = (i-1)*step+1 : (i-1)*step+window;
         %tic;
         % Your algorithm's code
-        [BPM(i), BPM_DOM(i), N_prev]= fractal_algorithm(sig(:,curSegment),BPM,srate,i,idnb, N_prev, N_LMS, N_RLS,see,BPM0(i),BPM_DOM);
+        [BPM(i), BPM_DOM(i), N_prev]= CPC(sig(:,curSegment),BPM,srate,i,idnb, N_prev, N_LMS, N_RLS,see,BPM0(i),BPM_DOM);
         %toc;
     end
     toc
