@@ -9,3 +9,5 @@ photoplethysmographic (PPG) signal", *Biomedical Signal Processing and Control*,
 Ishmam Zabir, Celia Shahnaz,  and Shaikh Anowarul Fattah, "Cascade and Parallel Combination (CPC) of Adaptive Filters for 
 Estimating Heart Rate During Intensive Physical Exercise from Photoplethysmographic Signal", 
 *Healthcare Technology Letters*, 5(1), 2018.
+
+Please consider citing the papers if you find the code useful.
