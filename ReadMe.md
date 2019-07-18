@@ -10,6 +10,6 @@ Ishmam Zabir, Celia Shahnaz,  and Shaikh Anowarul Fattah, "Cascade and Parallel 
 Estimating Heart Rate During Intensive Physical Exercise from Photoplethysmographic Signal", 
 *Healthcare Technology Letters*, 5(1), pp: 18-24, 2018.
 
-3. [PDF](https://arxiv.org/abs/1810.06196) - **Mohammad Tariqul Islam**, Sk. Tanvir Ahmed, Celia Shahnaz, and Shaikh Anowarul Fattah, "SPECMAR: Fast Heart Rate Estimation from PPG Signal using a Modified Spectral Subtraction Scheme with Composite Motion Artifacts Reference Generation", *Medical & Biological Engineering & Computing*.
+3. [PDF](https://arxiv.org/abs/1810.06196) - **Mohammad Tariqul Islam**, Sk. Tanvir Ahmed, Celia Shahnaz, and Shaikh Anowarul Fattah, "SPECMAR: Fast Heart Rate Estimation from PPG Signal using a Modified Spectral Subtraction Scheme with Composite Motion Artifacts Reference Generation", *Medical & Biological Engineering & Computing*, 57, no. 3 (2019): 689-702.
 
 Please consider citing the papers if you find the code useful.
