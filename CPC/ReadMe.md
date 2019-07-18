@@ -1,7 +1,7 @@
 Use CPC_Main.m to find the usage of the algorithm.
 
 
-Read out paper [here](https://digital-library.theiet.org/content/journals/10.1049/htl.2017.0027).
+Read our paper [here](https://digital-library.theiet.org/content/journals/10.1049/htl.2017.0027).
 
 If you find the codes useful cite our paper:
 
