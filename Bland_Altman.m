@@ -15,7 +15,7 @@ function  []= Bland_Altman( Estimated_Values, Ground_Truth_Values, title__, x_la
     plot(avg,diff,'+');
     hold on;
     nbar = xlim__(1):xlim__(2);
-    valbar = ones(1,200-60+1);
+    valbar = ones(1,xlim__(2)-xlim__(1)+1);
     plot(nbar,valbar*val1,'r--');
     text(xlim__(2)-2,val1-1.5,'\mu-1.96\sigma','HorizontalAlignment','right','Fontname','Times New Roman','FontSize', 14, 'Color', 'r');
     plot(nbar,valbar*val2,'r--');
